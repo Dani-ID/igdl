@@ -17,7 +17,6 @@ console.log(`\n┌──[IGDL BY D4RK]`);
 console.log(`├[Type "Exit", To Exit]`);
 rl.question(`├[Post/Profile Link] ❱❱ `, (lin) => {
 
-// The Instagram Profile Photo Downloader Module Is In Error
   if (!lin.toLowerCase().includes('https://www.instagram.com/p/')) {
      let username = lin.split("https://instagram.com/")[1].split("?")[0]
      userInstagram(username).then(sult => {
