@@ -15,7 +15,7 @@ console.clear();
 var tod = function () {
 console.log(`\n┌──[IGDL BY D4RK]`);
 console.log(`├[Type "Exit", To Exit]`);
-rl.question(`├[Post/Profil Link] ❱❱ `, (lin) => {
+rl.question(`├[Post/Profile Link] ❱❱ `, (lin) => {
 
 // The Instagram Profile Photo Downloader Module Is In Error
   if (!lin.toLowerCase().includes('https://www.instagram.com/p/')) {
@@ -24,7 +24,6 @@ rl.question(`├[Post/Profil Link] ❱❱ `, (lin) => {
         o = `result${getRandom(".jpg")}`
      download(sult.profilePicHD, o, function(){
      exec(`mv ${o} ../storage/shared/0igdl`, (err) => {
-     axios.get(`https://tinyurl.com/api-create.php?url=` + sult.profilePicHD).then(outp => {
      rl.question(`│\n├──[RESULT]\n├[Username] ❱❱ ${sult.username}\n├[Following] ❱❱ ${sult.subscribtions}\n├[Followers] ❱❱ ${sult.subscribersCount}\n├[Bio] ❱❱ ${sult.biography}\n├[File Loc] ❱❱ storage/emulated/0igdl/${o}\n└[Type "Y" To Restart] ❱❱ `, (answer1) => {
 
        if (answer1.toLowerCase() == "y") {
@@ -39,12 +38,11 @@ rl.question(`├[Post/Profil Link] ❱❱ `, (lin) => {
      })
      })
      })
-     })
 
   } else {
 
   if (!lin.toLowerCase().startsWith("https://") || !lin.toLowerCase().includes("instagram.com/")) {
-     rl.question(`│\n├──[EEROR]\n├[MSG] ❱❱ This Is Not A Post Link\n└[Type "Y" To Restart] ❱❱ `, (answer) => {
+     rl.question(`│\n├──[ERROR]\n├[MSG] ❱❱ This Is Not A Post Link\n└[Type "Y" To Restart] ❱❱ `, (answer) => {
 
         if (answer.toLowerCase() == "y") {
            console.clear();
@@ -108,7 +106,7 @@ rl.question(`├[Post/Profil Link] ❱❱ `, (lin) => {
 
   } catch {
 
-     rl.question(`│\n├──[EEROR]\n├[MSG] ❱❱ This Is Not A Post Link\n└[Type "Y" To Restart] ❱❱ `, (answer3) => {
+     rl.question(`│\n├──[ERROR]\n├[MSG] ❱❱ This Is Not A Post Link\n└[Type "Y" To Restart] ❱❱ `, (answer3) => {
 
         if (answer3.toLowerCase() == "y") {
            console.clear();
