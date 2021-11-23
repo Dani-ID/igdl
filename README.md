@@ -1,9 +1,10 @@
 ### TERMUX
 ```bash
 > termux-setup-storage -y
-> apt update && apt upgrade -y
+> pkg update && pkg upgrade -y
 > pkg install git -y
 > pkg install nodejs -y
+> pkg install unzip -y
 > git clone https://github.com/Dani-ID/igdl
 > cd igdl
 > npm i
