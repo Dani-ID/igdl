@@ -60,16 +60,11 @@ rl.question(`├[Post/Profile Link] ❱❱ `, (lin) => {
      process.exit();
   }
 
-  // Module
+  // Module & File Folder
   try {
     exec(`cd node_modules && unzip user-instagram.zip`, (err) => {
-    })
-  } catch {
-  }
-
-  // File Folder
-  try {
     exec(`mkdir ../storage/shared/0igdl`, (err) => {
+    })
     })
   } catch {
   }
@@ -118,10 +113,9 @@ rl.question(`├[Post/Profile Link] ❱❱ `, (lin) => {
 
      })
   }
-
   }
   }
-     })
+  })
   }
 
   tod();
