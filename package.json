@@ -1,0 +1,21 @@
+{
+  "name": "igdl",
+  "version": "1.0.0",
+  "description": "instagram post downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram"
+  ],
+  "author": "Dani-ID",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "node-html-parser": "^5.1.0",
+    "request": "^2.88.2"
+  }
+}
