@@ -8,6 +8,8 @@
 > git clone https://github.com/Dani-ID/igdl
 > cd igdl
 > npm i
+> unzip user-instagram.zip
+> mv user-instagram node_modules/
 > node .
 ```
 
