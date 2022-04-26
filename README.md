@@ -15,5 +15,7 @@
  + Sample "Profile Download" Picture
 ![](https://i.ibb.co/pv4hvRy/IMG-20211123-135012.jpg)
 
- + File Result
+ + Result File
 ![](https://i.ibb.co/Cm88TsS/IMG-20211123-135150.jpg)
+
+ + If your result file is not in storage/emulated/0igdl, please check the igdl folder on termux
