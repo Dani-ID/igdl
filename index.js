@@ -27,7 +27,7 @@ rl.question(`├[Post/Profile Link] ❱❱ `, (lin) => {
 	}
      })
    } else {
-  if (!lin.toLowerCase().includes('https://www.instagram.com/p/')) {
+  if (!lin.toLowerCase().includes('/p/') && !lin.toLowerCase().includes('/reel/') && !lin.toLowerCase().includes('tv')) {
      let username = lin.split("https://instagram.com/")[1].split("?")[0]
      userInstagram(username).then(sult => {
         o = `result${getRandom(".jpg")}`
