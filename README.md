@@ -9,13 +9,13 @@
 > node .
 ```
 
- + Sample "Post Download" Picture
+ + Post Downloader
 ![](https://i.ibb.co/tZCBjKW/IMG-20211123-135120.jpg)
 
- + Sample "Profile Download" Picture
+ + Profile Downloader
 ![](https://i.ibb.co/pv4hvRy/IMG-20211123-135012.jpg)
 
- + Result File
+ + Result
 ![](https://i.ibb.co/Cm88TsS/IMG-20211123-135150.jpg)
 
  + If your result file is not in storage/emulated/0igdl, please check the igdl folder on termux
